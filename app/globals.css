@@ -22,40 +22,28 @@ body {
 @media (min-width: 768px) {
   .hero-bg {
     background-image: url('/rayo-desk.webp');
-    background-position: right center;
+    background-position: center center;
   }
 }
 
-/* Overlay pra legibilidade */
+/* Overlay vertical simples pra legibilidade (agora que é centralizado) */
 .hero-overlay {
   background: linear-gradient(
     180deg,
-    transparent 0%,
-    rgba(10, 10, 10, 0.3) 40%,
-    rgba(10, 10, 10, 0.88) 78%,
+    rgba(10, 10, 10, 0.4) 0%,
+    rgba(10, 10, 10, 0.55) 40%,
+    rgba(10, 10, 10, 0.9) 78%,
     rgba(10, 10, 10, 0.97) 100%
   );
 }
 
-@media (min-width: 768px) {
-  .hero-overlay {
-    background: linear-gradient(
-      90deg,
-      rgba(10, 10, 10, 0.92) 0%,
-      rgba(10, 10, 10, 0.75) 35%,
-      rgba(10, 10, 10, 0.25) 60%,
-      transparent 80%
-    );
-  }
-}
-
-/* CTA glow amarelo */
+/* CTA glow verde neon */
 @keyframes pulseCta {
   0%, 100% {
-    box-shadow: 0 0 0 1px rgba(255, 212, 0, 0.5), 0 0 32px -8px rgba(255, 212, 0, 0.55);
+    box-shadow: 0 0 0 1px rgba(192, 255, 0, 0.5), 0 0 32px -8px rgba(192, 255, 0, 0.55);
   }
   50% {
-    box-shadow: 0 0 0 1px rgba(255, 212, 0, 0.8), 0 0 55px -6px rgba(255, 212, 0, 0.9);
+    box-shadow: 0 0 0 1px rgba(192, 255, 0, 0.8), 0 0 55px -6px rgba(192, 255, 0, 0.9);
   }
 }
 
