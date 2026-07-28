@@ -21,14 +21,14 @@ export default function Page() {
               Cola no grupo do
             </span>
             <span className="block text-7xl sm:text-8xl md:text-9xl text-brand-neon uppercase drop-shadow-[0_2px_20px_rgba(192,255,0,0.55)]">
-              Gol do Rayo ⚡
+              Vitor ZZ 🎯
             </span>
           </h1>
 
           {/* Sub */}
           <p className="text-white text-lg sm:text-xl md:text-2xl font-medium max-w-xl leading-snug mb-8">
-            Análise <span className="text-brand-neon font-bold">ao vivo</span>,
-            campeonato mexicano e comunidade que respira futebol. Todo dia.
+            Análise <span className="text-brand-neon font-bold">diária</span>,
+            bilhete todo dia e comunidade forte que respira futebol.
           </p>
 
           {/* CTA */}

@@ -16,9 +16,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Gol do Rayo · Grupo de Odds Altas",
+  title: "Vitor ZZ · Grupo de Odds Altas",
   description:
-    "Entre no grupo do Gol do Rayo. Análise ao vivo, campeonato mexicano e comunidade forte todo dia.",
+    "Entre no grupo do Vitor ZZ. Análise diária, bilhete todo dia e comunidade forte que respira futebol.",
   robots: { index: false, follow: false }
 };
 
