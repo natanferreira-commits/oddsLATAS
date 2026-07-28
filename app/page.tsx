@@ -23,7 +23,7 @@ export default function Page() {
 
           {/* Sub */}
           <p className="text-white/90 text-base sm:text-lg md:text-xl font-medium max-w-lg leading-snug mb-7">
-            Bilhete de <span className="text-brand-neon font-bold">odd alta</span> todo dia, análise pesada e comunidade selecionada.
+            Bilhete de <span className="text-brand-neon font-bold">odd alta</span> todo dia, leitura afiada e comunidade selecionada.
           </p>
 
           {/* CTA */}
