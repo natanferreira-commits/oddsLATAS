@@ -18,7 +18,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Vitor ZZ · Grupo de Odds Altas",
   description:
-    "Entre no grupo do Vitor ZZ. Análise diária, bilhete todo dia e comunidade forte que respira futebol.",
+    "Entre no grupo de odds altas do Vitor ZZ. Bilhete de odd alta todo dia, análise pesada e comunidade selecionada.",
   robots: { index: false, follow: false }
 };
 

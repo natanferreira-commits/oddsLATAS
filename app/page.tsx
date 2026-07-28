@@ -9,7 +9,7 @@ export default function Page() {
         <div className="flex-1 w-full max-w-2xl mx-auto flex flex-col items-center justify-center text-center px-6 py-12">
           {/* Chip topo */}
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-neon/15 border border-brand-neon/50 text-brand-neon text-[11px] sm:text-xs font-bold uppercase tracking-widest mb-6">
-            Grupo grátis
+            Grupo · Odds Altas
           </div>
 
           {/* Headline */}
@@ -18,7 +18,7 @@ export default function Page() {
             style={{ fontFamily: "var(--font-anton), Anton, Impact, sans-serif" }}
           >
             <span className="block text-5xl sm:text-7xl md:text-8xl text-white uppercase drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
-              Cola no grupo do
+              Odds altas do
             </span>
             <span className="block text-7xl sm:text-8xl md:text-9xl text-brand-neon uppercase drop-shadow-[0_2px_20px_rgba(192,255,0,0.55)]">
               Vitor ZZ 🎯
@@ -27,8 +27,7 @@ export default function Page() {
 
           {/* Sub */}
           <p className="text-white text-lg sm:text-xl md:text-2xl font-medium max-w-xl leading-snug mb-8">
-            Análise <span className="text-brand-neon font-bold">diária</span>,
-            bilhete todo dia e comunidade forte que respira futebol.
+            Bilhete de <span className="text-brand-neon font-bold">odd alta</span> todo dia, análise pesada e comunidade selecionada.
           </p>
 
           {/* CTA */}
