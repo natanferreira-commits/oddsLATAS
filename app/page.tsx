@@ -5,28 +5,25 @@ export default function Page() {
   return (
     <main className="min-h-screen w-full flex flex-col hero-bg">
       <div className="flex-1 w-full flex flex-col hero-overlay">
-        {/* Conteúdo centralizado */}
-        <div className="flex-1 w-full max-w-2xl mx-auto flex flex-col items-center justify-center text-center px-6 py-12">
+        {/* Conteúdo — empurrado pra baixo pra deixar o soldado aparecer */}
+        <div className="flex-1 w-full max-w-2xl mx-auto flex flex-col items-center text-center px-6 pb-10 pt-[52vh] sm:pt-[48vh] md:pt-[42vh]">
           {/* Chip topo */}
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-neon/15 border border-brand-neon/50 text-brand-neon text-[11px] sm:text-xs font-bold uppercase tracking-widest mb-6">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-neon/15 border border-brand-neon/50 text-brand-neon text-[10px] sm:text-[11px] font-bold uppercase tracking-widest mb-5">
             Grupo · Odds Altas
           </div>
 
-          {/* Headline */}
-          <h1
-            className="leading-[0.85] tracking-tight mb-6"
-            style={{ fontFamily: "var(--font-anton), Anton, Impact, sans-serif" }}
-          >
-            <span className="block text-5xl sm:text-7xl md:text-8xl text-white uppercase drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
+          {/* Headline — Inter Black, mais moderna e menos "template" */}
+          <h1 className="font-black leading-[0.95] tracking-tight mb-5">
+            <span className="block text-3xl sm:text-4xl md:text-5xl text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
               Odds altas do
             </span>
-            <span className="block text-7xl sm:text-8xl md:text-9xl text-brand-neon uppercase drop-shadow-[0_2px_20px_rgba(192,255,0,0.55)]">
-              Vitor ZZ 🎯
+            <span className="block text-5xl sm:text-6xl md:text-7xl text-brand-neon drop-shadow-[0_2px_20px_rgba(192,255,0,0.5)]">
+              Vitor ZZ
             </span>
           </h1>
 
           {/* Sub */}
-          <p className="text-white text-lg sm:text-xl md:text-2xl font-medium max-w-xl leading-snug mb-8">
+          <p className="text-white/90 text-base sm:text-lg md:text-xl font-medium max-w-lg leading-snug mb-7">
             Bilhete de <span className="text-brand-neon font-bold">odd alta</span> todo dia, análise pesada e comunidade selecionada.
           </p>
 
