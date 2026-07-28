@@ -1,6 +1,5 @@
 export default function Page() {
-  // TODO: trocar pelo link real do grupo do Rayo quando o Natan mandar
-  const grupoLink = "https://t.me/+PLACEHOLDER";
+  const grupoLink = "https://t.me/ovitorzzbot?start=6a6906fc22009374920f03a0";
 
   return (
     <main className="min-h-screen w-full flex flex-col hero-bg">
