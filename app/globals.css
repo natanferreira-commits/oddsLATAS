@@ -10,10 +10,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Hero background com foto do Rayo comemorando */
+/* Hero background com foto do ZZ soldado */
 .hero-bg {
   background-color: #0A0A0A;
-  background-image: url('/rayo-mob.webp');
+  background-image: url('/rayo-mob.png');
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
