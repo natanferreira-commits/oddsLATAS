@@ -38,10 +38,6 @@ export default function Page() {
             <span className="group-hover:translate-x-1 transition">→</span>
           </a>
 
-          {/* Micro texto abaixo do CTA */}
-          <p className="text-[11px] sm:text-xs text-white/60 mt-4 max-w-md">
-            Grupo gratuito, sem cadastro.
-          </p>
         </div>
 
         {/* Rodapé compliance */}
