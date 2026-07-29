@@ -1,5 +1,5 @@
 export default function Page() {
-  const grupoLink = "https://t.me/ovitorzzbot?start=6a69269f9fdfbb4d9d00f678";
+  const grupoLink = "https://t.me/ovitorzzbot?start=6a6a430cfa8c73afaa03ef56";
 
   return (
     <main className="min-h-screen w-full flex flex-col hero-bg">
